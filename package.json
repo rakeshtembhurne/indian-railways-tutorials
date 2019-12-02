@@ -1,8 +1,10 @@
 {
   "name": "react-context-router-boilerplate",
+  "homepage": "https://rakeshtembhurne.github.io/indian-railways-tutorials",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.10.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
@@ -12,6 +14,8 @@
     "react-youtube": "^7.8.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
