@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/indian-railways-tutorials/precache-manifest.2e6b4cbd1a28f758155d006a0579c072.js"
+  "/indian-railways-tutorials/precache-manifest.796514ae528fe5722fcc3f2123bf6af8.js"
 );
 
 self.addEventListener('message', (event) => {

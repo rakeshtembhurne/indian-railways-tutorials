@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e91f5adc61793256b6f9b2cb129f9f8e",
+    "revision": "4360ef47ac84d5ef5690e7fba451e632",
     "url": "/indian-railways-tutorials/index.html"
   },
   {
-    "revision": "f5ac5984580f3d064f85",
+    "revision": "eafcc75699de8b8cd9db",
     "url": "/indian-railways-tutorials/static/css/main.5c3bd433.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indian-railways-tutorials/static/js/2.e3a5cad2.chunk.js"
   },
   {
-    "revision": "f5ac5984580f3d064f85",
-    "url": "/indian-railways-tutorials/static/js/main.dc30a373.chunk.js"
+    "revision": "eafcc75699de8b8cd9db",
+    "url": "/indian-railways-tutorials/static/js/main.80013a5b.chunk.js"
   },
   {
     "revision": "26cf978feaa9f9756346",
