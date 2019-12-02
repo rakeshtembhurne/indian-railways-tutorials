@@ -5,7 +5,7 @@ export class Movie extends Component {
     static contextType = context;
     handleClick = () => {
         this.context.dispatch({type: "SET_VIEW", payload: "DETAILS"});
-        this.context.dispatch({type: "SET_MOVIE", payload: {url:this.props.info.url, title:this.props.info.title, desc:this.props.info.desc}});
+        this.context.dispatch({type: "SET_MOVIE", payload: {...this.props.info}});
     } 
     render() {
         return (

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { ArrowDownCircle} from 'react-feather';
 import { context } from '../store/MyContext';
 
 export default class Downloads extends Component {
@@ -10,9 +9,8 @@ export default class Downloads extends Component {
   render() {
     return (
       <div className="downloads-container">
-        <ArrowDownCircle height="160" width="160" stroke="#171717" fill="grey" />
-        <p>Downloaded movies and series are shown here.</p>
-        <button onClick={this.handleClick} className="download-see-titles">FIND TITLES TO DOWNLOAD</button>
+        <br />
+        <h1>Credits</h1>
       </div>
     )
   }

@@ -12,10 +12,10 @@ export default class CloseButton extends Component {
     }
   render() {
     return (
-      <div>
-      <span className="close-button" onAnimationEnd={this.handleClick} onTouchStart={this.handleTouchStart} onMouseDown={this.handleTouchStart} onMouseUp={this.handleClick}>
-        <XCircle fill="black" stroke="white" strokeOpacity="0.7"></XCircle>
-      </span>
+      <div className="close-button-container">
+        <span className="close-button" onAnimationEnd={this.handleClick} onTouchStart={this.handleTouchStart} onMouseDown={this.handleTouchStart} onMouseUp={this.handleClick}>
+          <XCircle fill="black" stroke="white" strokeOpacity="0.7"></XCircle>
+        </span>
       </div>
     )
   }

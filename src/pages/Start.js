@@ -19,13 +19,20 @@ export class Start extends Component {
       });
     return (
       <div>
-        <div>
+        <div className="text-center">
 
-          {featured}
+          <p>Welcome</p>
 
-          <HorizontalMovieScroll type="Popular on Netflix" movies={this.state.movies} />
-          <HorizontalMovieScroll type="Horror movies" movies={this.state.movies} />
-          <HorizontalMovieScroll type="Comedy TV" movies={this.state.movies} />
+          <p>
+            <img src="logo.png" alt="Indian Railways" />
+          </p>
+
+          <p>Please select options below</p>
+
+
+          {/* {featured} */}
+
+          {/* <HorizontalMovieScroll type="Tutorials" movies={this.state.movies} /> */}
 
           <br/>
         </div>
