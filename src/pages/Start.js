@@ -20,7 +20,7 @@ export class Start extends Component {
     return (
       <div>
         <div className="text-center">
-
+          <br />
           <p>Welcome</p>
 
           <p>
