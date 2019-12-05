@@ -9,8 +9,11 @@ export class Movie extends Component {
     } 
     render() {
         return (
-            <div>
-                <div onClick={this.handleClick} id={this.props.featured ? "featured" : ""} className="movie d-flex"><img src={this.props.info.url} title={this.props.info.title} desc={this.props.info.desc} alt="movie"/></div>
+            <div className="movie-item">
+                <div className="movie-thumb" onClick={this.handleClick} id={this.props.featured ? "featured" : ""} >
+                    <img src={this.props.info.url} title={this.props.info.title} desc={this.props.info.desc} alt="movie"/>
+                </div>
+                <div className="movie-desc text-left">{this.props.info.desc}</div>
             </div>
           )
     }

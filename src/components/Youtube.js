@@ -23,7 +23,7 @@ export default ({ videoId, title }) => {
       src={`https://player.vimeo.com/video/${videoId}`}
       frameBorder = "0"
       allow = "autoplay; fullscreen"
-      allowfullscreen />
+      allowFullScreen />
     </div>
   );
 };

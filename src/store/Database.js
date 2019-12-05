@@ -1,25 +1,26 @@
 export const Database = () => {
     return [
+      { 
+        videoId: '377505634',
+        url: "01_contact_splice.png", 
+        title: "01. Contact Splice", 
+        desc: "01. Short video film on contact splice", 
+        type: "Popular on Netflix" 
+      },
       {
         videoId: '376735649',
         url: "railways-discharge-rod-f.png",
-        title: "Railways Discharge Rod F", 
-        desc:"In this tutorial, you will learn, ...", 
+        title: "02. Railways Discharge Rod", 
+        desc:"02. Short video film on how to apply and remove discharge rod", 
         type: "featured"
       },
-      { 
-        videoId: '376735649',
-        url: "https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_SY298_CR0,0,201,298_AL_.jpg", 
-        title: "Venom", 
-        desc: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard", 
-        type: "Popular on Netflix" 
+      {
+        videoId: '377510065',
+        url: "03_catanary_splice.png",
+        title: "03. Catenery Splice", 
+        desc:"03. Short video film on catenery splice.", 
+        type: "featured"
       },
-      { 
-        videoId: '376735649',
-        url: "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SY298_CR0,0,201,298_AL_.jpg", title: "Jurassic park", 
-        desc: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard", 
-        type: "Popular on Netflix" 
-      },
-        
+
     ];
   };

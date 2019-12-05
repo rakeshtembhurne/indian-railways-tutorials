@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Database } from '../store/Database'
 import { Movie } from '../components/Movie'
-import HorizontalMovieScroll from '../components/HorizontalMovieScroll';
 
 
 export class Start extends Component {
@@ -12,28 +11,15 @@ export class Start extends Component {
     };
   }
   render() {
-    const featured = this.state.movies
-      .filter((m) => m.type === "featured")
-      .map((m) => {
-        return <Movie featured={true} info={m} key={Math.random()}></Movie>
-      });
     return (
       <div>
         <div className="text-center">
           <br />
-          <p>Welcome</p>
-
+          <h2>TRD Skill Development</h2>
+           <h3>Nagpur Division (C.R.)</h3>
           <p>
-            <img src="logo.png" alt="Indian Railways" />
+            <img className="home-logo" src="indian-railways-image-big.jpg" alt="Indian Railways" />
           </p>
-
-          <p>Please select options below</p>
-
-
-          {/* {featured} */}
-
-          {/* <HorizontalMovieScroll type="Tutorials" movies={this.state.movies} /> */}
-
           <br/>
         </div>
       </div>

@@ -3,8 +3,9 @@ import { Movie } from './Movie'
 
 export default class HorizontalMovieScroll extends Component {
     render() {
+        const skipId = this.props.skipMovieId;
         const movies = this.props.movies
-            // .filter((m) => m.type === this.props.type)
+            .filter((m) => !skipId || (skipId && m.videoId !== skipId))
             .map((m) => {
                 return <Movie info={m} key={Math.random()}></Movie>
             });

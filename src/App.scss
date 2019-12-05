@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-$black: #000;
+$black: #1613e6;
 $white: #FFF;
 $grey: #7F7F7F;
 
 $body-font-family: Roboto;
 $body-font-color: #EEE;
-$body-background: #171717;
+$body-background: #337ab7;
 $background: #333;
 
 $profile-background: #272727;
 $search-banner-bg: #444;
 $search-banner-font-color: #999;
 
+.home-logo, .splashLogo {
+  width: 100vw;
+}
 .fastest{
   animation-duration: .2s;
 }
@@ -40,7 +43,25 @@ h1, p {
     display: flex;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
+    flex-direction: column;
   }
+  .movie-item {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    & > div {
+      flex: 1;
+      width: 50vw;
+      img {
+        width: 100%;
+      }
+    }
+    & .movie-desc {
+      text-align: left;
+      padding: 5px;
+    }
+  }
+
   .movie-container::-webkit-scrollbar {
       display: none;
     }
@@ -111,9 +132,9 @@ h1, p {
     max-width: 100%;
     overflow-x: hidden;
 }
-img {
-  height: 25vh;
-}
+// img {
+//   height: 25vh;
+// }
   .details-poster-container {
     display: flex;
     justify-content: center;
