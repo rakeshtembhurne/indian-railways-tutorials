@@ -23,6 +23,7 @@ export class Details extends Component {
         <br />
         <div>
           <h5 className="text-center">{this.context.movie.title}</h5>
+          
           <Youtube videoId={this.context.movie.videoId} title={this.context.movie.title} />
         </div>
 
