@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Database } from '../store/Database'
-import { Movie } from '../components/Movie'
+import { Database } from '../store/Database';
 
 
 export class Start extends Component {
@@ -18,7 +17,7 @@ export class Start extends Component {
           <h2>TRD Skill Development</h2>
            <h3>Nagpur Division (C.R.)</h3>
           <p>
-            <img className="home-logo" src="indian-railways-image-big.jpg" alt="Indian Railways" />
+            <img className="home-logo" src="indian-railways-image-big.png" alt="Indian Railways" />
           </p>
           <br/>
         </div>
