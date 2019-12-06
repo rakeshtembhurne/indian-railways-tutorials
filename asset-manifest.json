@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/indian-railways-tutorials/static/css/main.31d961c8.chunk.css",
-    "main.js": "/indian-railways-tutorials/static/js/main.fbbd70cd.chunk.js",
-    "main.js.map": "/indian-railways-tutorials/static/js/main.fbbd70cd.chunk.js.map",
+    "main.js": "/indian-railways-tutorials/static/js/main.bbb81a6b.chunk.js",
+    "main.js.map": "/indian-railways-tutorials/static/js/main.bbb81a6b.chunk.js.map",
     "runtime-main.js": "/indian-railways-tutorials/static/js/runtime-main.b5d6a9ef.js",
     "runtime-main.js.map": "/indian-railways-tutorials/static/js/runtime-main.b5d6a9ef.js.map",
     "static/js/2.b1d373e2.chunk.js": "/indian-railways-tutorials/static/js/2.b1d373e2.chunk.js",
     "static/js/2.b1d373e2.chunk.js.map": "/indian-railways-tutorials/static/js/2.b1d373e2.chunk.js.map",
     "index.html": "/indian-railways-tutorials/index.html",
-    "precache-manifest.34ddecde73dab7ceacb7eb5155d6eeef.js": "/indian-railways-tutorials/precache-manifest.34ddecde73dab7ceacb7eb5155d6eeef.js",
+    "precache-manifest.c0257d1e1e65513ce98d7e869ebf5e38.js": "/indian-railways-tutorials/precache-manifest.c0257d1e1e65513ce98d7e869ebf5e38.js",
     "service-worker.js": "/indian-railways-tutorials/service-worker.js",
     "static/css/main.31d961c8.chunk.css.map": "/indian-railways-tutorials/static/css/main.31d961c8.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b5d6a9ef.js",
     "static/js/2.b1d373e2.chunk.js",
     "static/css/main.31d961c8.chunk.css",
-    "static/js/main.fbbd70cd.chunk.js"
+    "static/js/main.bbb81a6b.chunk.js"
   ]
 }
