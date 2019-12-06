@@ -5,7 +5,6 @@ export class Featured extends Component {
     static contextType = context;
     handleClick = () => {
         this.context.dispatch({type: "SET_VIEW", payload: "DETAILS"});
-        console.log({"INFO":this.props.info})
         this.context.dispatch({type: "SET_MOVIE", payload: {...this.props.info}});
     } 
     render() {

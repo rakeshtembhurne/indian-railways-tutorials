@@ -13,7 +13,11 @@ export class Movie extends Component {
                 <div className="movie-thumb" onClick={this.handleClick} id={this.props.featured ? "featured" : ""} >
                     <img src={this.props.info.url} title={this.props.info.title} desc={this.props.info.desc} alt="movie"/>
                 </div>
-                <div className="movie-desc text-left">{this.props.info.desc}</div>
+                <div className="movie-desc text-left">
+                    <p>{this.props.info.desc}
+                    <br />
+                    {this.props.info.titleHindi}</p>
+                </div>
             </div>
           )
     }
