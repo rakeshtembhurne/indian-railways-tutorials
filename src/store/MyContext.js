@@ -21,9 +21,13 @@ export class MyProvider extends Component {
             movies : Database(),
             movie: {},
             view: "HOME",
-            dispatch: action => {
-                this.setState(state => reducer(state, action));
-              }
+            dispatch: (action, cb) => {
+                if (cb) {
+                    this.setState(state => reducer(state, action), cb);
+                } else {
+                    this.setState(state => reducer(state, action));
+                }
+            }
           }
 
           this.setState(initState);
@@ -32,6 +36,7 @@ export class MyProvider extends Component {
     state = {}
 
     render() {
+        console.log("context render called", this.state.movie)
         return (
             <context.Provider value={this.state}>
                 {this.props.children}

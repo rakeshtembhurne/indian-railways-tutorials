@@ -30,7 +30,7 @@ export const Database = () => {
         desc:"04. foundation marking.", 
       },
       {
-        videoId: '377815483',
+        videoId: '377815395',
         url: "05_ending_clone.png",
         title: "05. Ending Cone LSW 130 ST",
         titleHindi: "05. लार्ज स्पान वायर (130 मिमी² ) का एंडींग कोन लगाने की विधि",
@@ -44,7 +44,7 @@ export const Database = () => {
         desc: "06. Stay Tube Mearurement.",
       },
       {
-        videoId: '377815483',
+        videoId: '377815324',
         url: "07_isolator.png",
         title: "07. Isolator Maintenance",
         titleHindi: "07. आइसोलेटर अनुरक्षण करने की विधि",
