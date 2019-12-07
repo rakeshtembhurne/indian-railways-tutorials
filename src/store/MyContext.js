@@ -36,7 +36,6 @@ export class MyProvider extends Component {
     state = {}
 
     render() {
-        console.log("context render called", this.state.movie)
         return (
             <context.Provider value={this.state}>
                 {this.props.children}
