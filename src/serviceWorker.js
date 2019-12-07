@@ -49,6 +49,12 @@ export function register(config) {
         registerValidSW(swUrl, config);
       }
     });
+
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      deferredPrompt = e;
+      showInstallPromotion();
+    });
   }
 }
 
