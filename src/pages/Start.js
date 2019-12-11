@@ -14,10 +14,10 @@ export class Start extends Component {
       <div>
         <div className="text-center">
           <br />
-          <h2>TRD Skill Development</h2>
           <h2>टी.आर.डी. कौशल विकास</h2>
-          <h3>Nagpur Division (C.R.)</h3>
-          <h3>नागपूर मंडल (मध्य रेलवे)</h3>
+          <h2>TRD SKILL DEVELOPMENT</h2>
+          <h3>नागपुर मंडल (मध्य रेलवे)</h3>
+          <h3>NAGPUR DIVISION (C.R.)</h3>
           <p>
             <img className="home-logo" src="indian-railways-image-big.png" alt="Indian Railways" />
           </p>

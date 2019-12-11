@@ -14,9 +14,9 @@ export class Movie extends Component {
                     <img src={this.props.info.url} title={this.props.info.title} desc={this.props.info.desc} alt="movie"/>
                 </div>
                 <div className="movie-desc text-left">
-                    <p>{this.props.info.desc}
+                    <p>{this.props.info.titleHindi}
                     <br />
-                    {this.props.info.titleHindi}</p>
+                    {this.props.info.desc}</p>
                 </div>
             </div>
           )
