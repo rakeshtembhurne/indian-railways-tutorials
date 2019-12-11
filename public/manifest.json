@@ -1,16 +1,11 @@
 {
-  "short_name": "TRDSafety",
-  "name": "टी.आर.डी. कौशल विकास <br />TRD SKILL DEVELOPMENT",
+  "short_name": "TRDSkillDev",
+  "name": "TRD SKILL DEVELOPMENT",
   "icons": [
     {
       "src": "manifest-icon-512.png",
       "sizes": "512x512 192x192 144x144 64x64 128x128",
       "purpose": "any",
-      "type": "image/png"
-    },
-    {
-      "src": "manifest-icon-192.png",
-      "sizes": "192x192",
       "type": "image/png"
     },
     {
