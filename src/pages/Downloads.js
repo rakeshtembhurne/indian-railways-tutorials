@@ -12,8 +12,8 @@ export default class Downloads extends Component {
         <br />
         <h1>Credits</h1>
         <img className="imgCred" alt="Credits" src="credit_1.jpeg" />
-        <img className="imgCred" alt="Credits" src="credit_2.jpeg" />
         <img className="imgCred" alt="Credits" src="credit_3.jpg" />
+        <img className="imgCred" alt="Credits" src="credit_2.jpeg" />
         
       </div>
     )
