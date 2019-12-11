@@ -1,10 +1,10 @@
 {
   "short_name": "TRDSafety",
-  "name": "Indian Railways TRD Safety Tutorials",
+  "name": "टी.आर.डी. कौशल विकास <br />TRD SKILL DEVELOPMENT",
   "icons": [
     {
       "src": "manifest-icon-512.png",
-      "sizes": "512x512 192x192 144x144 64x64 128x128",
+      "sizes": "512x512",
       "purpose": "any",
       "type": "image/png"
     },
