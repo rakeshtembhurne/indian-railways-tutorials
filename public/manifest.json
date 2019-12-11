@@ -4,7 +4,7 @@
   "icons": [
     {
       "src": "manifest-icon-512.png",
-      "sizes": "512x512",
+      "sizes": "512x512 192x192 144x144 64x64 128x128",
       "purpose": "any",
       "type": "image/png"
     },
