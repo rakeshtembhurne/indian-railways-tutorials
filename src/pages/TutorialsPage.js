@@ -16,7 +16,7 @@ export class TutorialsPage extends React.Component {
             <div>
                 <br />
                 <div className="text-center">
-                    <HorizontalMovieScroll type="TRD Safety Tutorials" movies={this.state.movies} />
+                    <HorizontalMovieScroll type="TRD SAFETY TUTORIALS" movies={this.state.movies} />
                 </div>
             </div>
         )
