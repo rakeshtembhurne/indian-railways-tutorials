@@ -33,7 +33,7 @@ export const Database = () => {
         url: "05_ending_clone.png",
         title: "Ending Cone LSW 130 ST",
         titleHindi: "लार्ज स्पान वायर (130 मिमी² ) का एंडींग कोन लगाने की विधि",
-        desc: "METHOD OF MOUNTING AN END CONE OF LARGE SPAN WIRE (130 MM²)",
+        desc: "METHOD OF FITTING ENDING CONE ON LARGE SPAN WIRE OF 130 Sq.mm",
       },
       {
         videoId: '377816770',
